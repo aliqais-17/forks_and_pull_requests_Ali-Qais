@@ -6,7 +6,7 @@ int main() {
 
    cout << "Enter two numbers: ";
    cin >> num1 >> num2;
-
+//sum
    sum = num1 + num2;
    sub = num1 - num2;
    mul = num1 * num2;
