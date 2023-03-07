@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   float num1, num2, sum, sub, mul, division, average;
+
+   cout << "Enter two numbers: ";
+   cin >> num1 >> num2;
+
+   sum = num1 + num2;
+   sub = num1 - num2;
+   mul = num1 * num2;
+   division = num1 / num2;
+   average = (num1 + num2) / 2;
+
+   cout << "Sum = " << sum << endl;
+   cout << "Sub = " << sub << endl;
+   cout << "mul = " << mul << endl;
+   cout << "division = " << division << endl;
+   cout << "Average = " << average << endl;
+
+   return 0;
+}
