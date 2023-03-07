@@ -8,7 +8,9 @@ int main() {
    cin >> num1 >> num2;
 //sum
    sum = num1 + num2;
+//sub
    sub = num1 - num2;
+//mul
    mul = num1 * num2;
    division = num1 / num2;
    average = (num1 + num2) / 2;
